@@ -14,7 +14,7 @@ final GetYesNoAnswer getYesNoAnswer = GetYesNoAnswer();
 List<Message> messageList = [
   Message(text: 'Hola amor!', fromWho: FromWho.me),
   Message(text: 'Vamos?', fromWho: FromWho.me),
-  Message(text: 'Vamos?', fromWho: FromWho.hers),
+  // Message(text: 'Vamos?', fromWho: FromWho.hers, imageUrl: 'URL'),
 ];
 
 Future<void> sendMessage(String text) async {
